@@ -14,6 +14,7 @@ mv snake /usr/bin/local
 ```
 
 *Download latest release*
+
 Go to the [GitHub release section](https://github.com/jomy10/term-snake/releases) and download the latest release for your operating system
 
 ## Features
