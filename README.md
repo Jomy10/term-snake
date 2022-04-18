@@ -8,7 +8,7 @@ A snake game for the terminal. A great way to waste some time.
 
 ## Installation
 
-*Compile the program manually*
+**Compile the program manually**
 
 ```bash
 git clone https://github.com/jomy10/term-snake
@@ -17,7 +17,7 @@ go build -o snake -ldflags "-s -w"
 mv snake /usr/bin/local
 ```
 
-*Download latest release*
+**Download latest release**
 
 Go to the [GitHub release section](https://github.com/jomy10/term-snake/releases) and download the latest release for your operating system
 
@@ -25,7 +25,7 @@ Go to the [GitHub release section](https://github.com/jomy10/term-snake/releases
 
 A snake game that occupies the whole terminal screen.
 
-## Moivaion
+## Motivation
 
 This is my first project in Go, I made this program to learn the language.
 
