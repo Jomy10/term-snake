@@ -2,6 +2,10 @@
 
 A snake game for the terminal. A great way to waste some time.
 
+
+
+![example-terminal](EXAMPLE.gif)
+
 ## Installation
 
 *Compile the program manually*
