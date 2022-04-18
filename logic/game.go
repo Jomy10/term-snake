@@ -1,11 +1,14 @@
 package snake
 
-import "math/rand"
+import (
+	"math/rand"
+	"time"
+)
 
 type Game struct {
 	Player
 	Food
-	// GameMap [][]string
+	GameMap [][]string
 	Size
 }
 
@@ -35,6 +38,10 @@ func (co1 Coordinate) IsFurtherFrom(co2 Coordinate) BoolOrEqual {
 
 type Size struct {
 	Width, Height int
+}
+
+func init() {
+	rand.Seed(time.Now().Unix())
 }
 
 func RandCo(maxX, maxY int) Coordinate {
