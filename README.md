@@ -44,7 +44,7 @@ This is my first project in Go, I made this program to learn the language.
 $ snake
 ```
 
-- Use **wasd/zqsd* to move.
+- Use *wasd/zqsd* to move.
 - Use *c* to exit
 
 ## Contributing
